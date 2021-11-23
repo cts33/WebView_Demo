@@ -5,6 +5,6 @@
 	}
 	 document.getElementById("btn") .addEventListener("click", function() {
 		gotoNative();
-		alert("hhh")
+		console.log("--- hello")
 	});
 }); 

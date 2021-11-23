@@ -12,6 +12,82 @@
 
 
 
+		<script>
+			// alert("111")
+			// alert("222")
+			// document.getElementById("content").innerHTML = "test innerHTML"
 
+			// document.write(Date())
+			// console.log("print to controller")
+			// string   单引号 双引号 都行
+			// Array  [1,2,3,4]
+			//对象  {name:"lisi",age:11}
+			// 函数  function xxx(a,b){return a*b}
+			// 关键字 var 来定义变量，
+			var xx = 16 + "Volvo"
+			console.log(xx);
+			// JavaScript 对大小写是敏感的
+			// js 语句要加分号
+			// 使用反斜杠对代码行进行换行
+			document.write("你好 \
+			世界!");
+			// 在 2015 后的 JavaScript 版本 (ES6)
+			// 允许我们使用 const 关键字来定义一个常量，
+			// 使用 let 关键字定义的限定范围内作用域的变量。
+			// JavaScript 数据类型
+			// 值类型(基本类型)：字符串（String）、数字(Number)、布尔(Boolean)、对空（Null）、未定义（Undefined）、Symbol。
+
+			// 引用数据类型：对象(Object)、数组(Array)、函数(Function)。
+
+			// Undefined 和 Null
+			// Undefined 这个值表示变量不含有值。
+			// 可以通过将变量的值设置为 null 来清空变量。
+
+			var x;
+			console.log(x)
+			// 对象的创建访问
+			var per = {
+				name: "lissi",
+				age: 12
+			};
+			console.log(per.name)
+
+			function getAge() {
+
+				return 22;
+			}
+			var age = getAge();
+			console.log("age=" + age)
+
+			// JavaScript 变量的生存期
+			// JavaScript 变量的生命期从它们被声明的时间开始。
+
+			// 局部变量会在函数运行以后被删除。
+
+			// 全局变量会在页面关闭后被删除。
+		</script>
+		<script>
+			// 向未声明的 JavaScript 变量分配值
+			// 如果您把值赋给尚未声明的变量，该变量将被自动作为 window 的一个属性。
+			var var1 = 1; // 不可配置全局属性
+			var2 = 2; // 没有使用 var 声明，可配置全局属性
+
+			console.log(window.var1)
+			console.log(window.var2)
+
+			delete var1;
+			delete var2;
+
+			console.log(window.var1)
+			console.log(window.var2)
+			
+			// 事件  onclick onchange onmouseover onmouseout  onkeydown onload(页面加载完成)
+			var a = "3.1415";
+			var b = a-2;
+			
+			console.log(b)
+			
+			console.log((100 + 23).toString())
+		</script>
 	</body>
 </html>
